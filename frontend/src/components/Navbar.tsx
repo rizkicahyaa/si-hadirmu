@@ -12,23 +12,18 @@ const Navbar = () => {
 
                 <ul className="hidden md:flex space-x-6">
                     <li>
-                        <a href="#" className="hover:text-gray-200">
+                        <a href="/" className="hover:text-gray-200">
                             Dashboard
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="hover:text-gray-200">
+                        <a href="/presensi" className="hover:text-gray-200">
                             Presensi
                         </a>
                     </li>
                     <li>
                         <a href="#" className="hover:text-gray-200">
                             Riwayat
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:text-gray-200">
-                            Profil
                         </a>
                     </li>
                     <li>
