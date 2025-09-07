@@ -1,6 +1,6 @@
-# 📌 Sistem Presensi Mahasiswa
+# 📌 SiHadirmu
 
-Sistem Presensi Mahasiswa adalah aplikasi berbasis web sederhana untuk mengelola absensi mahasiswa.  
+SiHadirmu adalah aplikasi berbasis web sederhana untuk mengelola absensi mahasiswa.  
 Dibuat menggunakan **React + TailwindCSS** pada sisi frontend, dan **Express.js + Node.js + MySQL** pada sisi backend nya.
 
 ---
@@ -18,12 +18,12 @@ Dibuat menggunakan **React + TailwindCSS** pada sisi frontend, dan **Express.js 
 
 ## 🚀 Teknologi yang Digunakan
 
--   [React.js](https://react.dev/) – Library frontend
--   [Tailwind CSS](https://tailwindcss.com/) – Framework styling
--   [Vite](https://vitejs.dev/) – Build tool untuk React (opsional)
--   [Node.js](https://nodejs.org/) – Backend (opsional)
--   [Express.js](https://expressjs.com/) – REST API (opsional)
--   [SQLite/MySQL/PostgreSQL] – Database (opsional)
+-   [React.js](https://react.dev/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Vite](https://vitejs.dev/)
+-   [Node.js](https://nodejs.org/)
+-   [Express.js](https://expressjs.com/)
+-   [MySQL](https://www.mysql.com/)
 
 ---
 
@@ -31,6 +31,6 @@ Dibuat menggunakan **React + TailwindCSS** pada sisi frontend, dan **Express.js 
 
 1. Clone repositori:
     ```bash
-    git clone https://github.com/username/sistem-presensi-mahasiswa.git
-    cd sistem-presensi-mahasiswa
+    git clone https://github.com/rizkicahyaa/si-hadirmu.git
+    cd si-hadirmu
     ```
