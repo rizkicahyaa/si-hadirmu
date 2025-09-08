@@ -22,7 +22,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="hover:text-gray-200">
+                        <a href="/riwayat" className="hover:text-gray-200">
                             Riwayat
                         </a>
                     </li>
