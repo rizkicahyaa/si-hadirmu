@@ -1,6 +1,6 @@
 const Dashboard = () => {
     return (
-        <div className="container mx-auto p-6">
+        <div className="flex flex-col min-h-screen p-6">
             <h1 className="text-2xl font-bold mb-6">Dashboard Presensi</h1>
 
             <div className="bg-white rounded-lg shadow p-6 mb-6">
