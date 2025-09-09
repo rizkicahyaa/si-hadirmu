@@ -3,7 +3,6 @@ const Dashboard = () => {
         <div className="flex flex-col min-h-screen bg-gray-50 p-6">
             <h1 className="text-3xl font-bold mb-8 text-gray-800">📊 Dashboard Presensi</h1>
 
-            {/* Profil Mahasiswa */}
             <div className="bg-white rounded-2xl shadow-md p-6 mb-8 border border-gray-200">
                 <h2 className="text-xl font-semibold mb-4 text-gray-700">👤 Profil Mahasiswa</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -22,7 +21,6 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            {/* Statistik Presensi */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
                 <div className="bg-green-500 text-white rounded-2xl p-6 text-center shadow-md hover:scale-105 transform transition">
                     <h2 className="text-lg font-semibold">Hadir</h2>
@@ -42,7 +40,6 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            {/* Jadwal Kuliah Hari Ini */}
             <div className="bg-white rounded-2xl shadow-md p-6 mb-8 border border-gray-200">
                 <h2 className="text-xl font-semibold mb-4 text-gray-700">📅 Jadwal Kuliah Hari Ini</h2>
                 <ul className="space-y-3">
@@ -57,7 +54,6 @@ const Dashboard = () => {
                 </ul>
             </div>
 
-            {/* Pengumuman */}
             <div className="bg-white rounded-2xl shadow-md p-6 border border-gray-200">
                 <h2 className="text-xl font-semibold mb-4 text-gray-700">📢 Pengumuman</h2>
                 <ul className="list-disc list-inside space-y-2 text-gray-700">
