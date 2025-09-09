@@ -4,7 +4,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-purple-600 text-white shadow-md">
+        <nav className="bg-purple-600 text-white shadow-md sticky top-0 z-50">
             <div className="container mx-auto flex justify-between items-center p-4">
                 <a href="/" className="text-xl font-bold">
                     SiHadirmu
@@ -41,24 +41,24 @@ const Navbar = () => {
             </div>
 
             {isOpen && (
-                <ul className="md:hidden bg-blue-500 space-y-2 p-4">
+                <ul className="md:hidden bg-purple-500 space-y-2 p-4">
                     <li>
-                        <a href="#" className="block hover:text-gray-200">
+                        <a href="/" className="block hover:text-gray-200">
                             Dashboard
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="block hover:text-gray-200">
+                        <a href="/presensi" className="block hover:text-gray-200">
                             Presensi
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="block hover:text-gray-200">
+                        <a href="/riwayat" className="block hover:text-gray-200">
                             Riwayat
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="block hover:text-gray-200">
+                        <a href="/profil" className="block hover:text-gray-200">
                             Profil
                         </a>
                     </li>
