@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Presensi from "./page/Presensi";
 import Riwayat from "./page/Riwayat";
+import Login from "./page/Login";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 />
                 <Route path="/presensi" element={<Presensi />} />
                 <Route path="/riwayat" element={<Riwayat />} />
+                <Route path="/login" element={<Login />} />
             </Routes>
             <Footer />
         </Router>
