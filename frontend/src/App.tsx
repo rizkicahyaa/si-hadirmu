@@ -10,21 +10,27 @@ import Login from "./page/Login";
 function App() {
     return (
         <Router>
-            <Navbar />
-            <Routes>
-                <Route
-                    path="/"
-                    element={
-                        <>
-                            <Dashboard />
-                        </>
-                    }
-                />
-                <Route path="/presensi" element={<Presensi />} />
-                <Route path="/riwayat" element={<Riwayat />} />
-                <Route path="/login" element={<Login />} />
-            </Routes>
-            <Footer />
+            <div className="min-h-screen flex flex-col bg-gray-50">
+                <Navbar />
+                <main className="flex-1">
+                    <div className="container mx-auto px-4 md:px-6 lg:px-8 py-6 md:py-8">
+                        <Routes>
+                            <Route
+                                path="/"
+                                element={
+                                    <>
+                                        <Dashboard />
+                                    </>
+                                }
+                            />
+                            <Route path="/presensi" element={<Presensi />} />
+                            <Route path="/riwayat" element={<Riwayat />} />
+                            <Route path="/login" element={<Login />} />
+                        </Routes>
+                    </div>
+                </main>
+                <Footer />
+            </div>
         </Router>
     );
 }

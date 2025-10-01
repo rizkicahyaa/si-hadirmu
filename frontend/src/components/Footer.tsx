@@ -1,19 +1,19 @@
 const Footer = () => {
     return (
-        <footer className="bg-purple-600 text-white">
-            <div className="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
-                <p className="text-sm">&copy; {new Date().getFullYear()} SiHadirmu. All rights reserved.</p>
-                <div className="flex space-x-4 mt-3 md:mt-0">
-                    <a href="#" className="hover:text-gray-200">
+        <footer className="bg-white border-t border-gray-200">
+            <div className="container mx-auto px-4 md:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p className="text-sm text-gray-500">&copy; {new Date().getFullYear()} SiHadirmu. All rights reserved.</p>
+                <nav className="flex items-center gap-4 text-sm">
+                    <a href="#" className="text-gray-500 hover:text-gray-700 transition-colors">
                         Tentang
                     </a>
-                    <a href="#" className="hover:text-gray-200">
+                    <a href="#" className="text-gray-500 hover:text-gray-700 transition-colors">
                         Kontak
                     </a>
-                    <a href="#" className="hover:text-gray-200">
+                    <a href="#" className="text-gray-500 hover:text-gray-700 transition-colors">
                         Bantuan
                     </a>
-                </div>
+                </nav>
             </div>
         </footer>
     );
